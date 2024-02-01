@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
     public void GetDirection(Vector3 direction)
     {
         _direction = direction;
-
+//
         if (_direction.x <0)
             gameObject.GetComponent<SpriteRenderer>().flipX = true;
     }
